@@ -72,7 +72,7 @@ export const getCategories = async (currentSlug?: string) => {
   const settings: ProductsLayoutSettings = {
     featuredCategories: denullifyArray(featuredCategoriesData),
     productsPerRow:
-      (categoriesList[0]?.content?.productsPerRow as ProductsPerRow) ?? 3,
+    (categoriesList[0]?.content?.productsPerRow as unknown as ProductsPerRow) ?? 3,
     enableQuickAdd: categoriesList[0]?.content?.enableQuickAdd ?? false,
     showFeaturedCategories:
       categoriesList[0]?.content?.showFeaturedCategories ?? false,

@@ -140,7 +140,7 @@
         "billing_message": "Every {n} {interval}",
         "order_message": "Every {n} {interval}",
         "details": {
-          "billing_message": "Pay every {n} {interval}",
+          "billing_message": "Deliver every {n} {interval}",
           "order_message": "Shipped every {n} {interval}",
           "header_billing_message": "Every {n} {interval}",
           "back_link": "Back to subscriptions",
@@ -336,7 +336,7 @@
       },
       "subscription": {
         "options": "Subscription options",
-        "billing_message": "Pay every {n} {interval}",
+        "billing_message": "Deliver every {n} {interval}",
         "order_message": "Receive it every {n} {interval}"
       },
       "interval": {
