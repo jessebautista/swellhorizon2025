@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "private": true,
   "engines": {
-    "node": "16.x",
+    "node": "18.x",
     "npm": ">=8"
   },
   "scripts": {
@@ -28,6 +28,7 @@
     "sync": "node -r dotenv/config ./build-utils/sync-storefront.mjs"
   },
   "dependencies": {
+    "@babel/runtime": "^7.22.0",
     "@headlessui/react": "^1.6.4",
     "@radix-ui/react-accordion": "^0.1.6",
     "@radix-ui/react-navigation-menu": "^1.0.0",
@@ -43,8 +44,8 @@
     "graphql-request": "^4.0.0",
     "next": "^12.2.0",
     "node-mocks-http": "^1.11.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-swipeable": "^6.2.1",
     "sharp": "^0.31.2",
     "swell-node": "^4.0.10",
